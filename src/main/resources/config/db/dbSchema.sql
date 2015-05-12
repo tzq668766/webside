@@ -1,4 +1,4 @@
-CREATE TABLE TestUser(id INTEGER primary key,username varchar,password varchar);
+CREATE TABLE testuser(id INTEGER primary key,username varchar(80),password varchar(80));
 create table account (
     userid varchar(80) not null,
     email varchar(80) not null,
